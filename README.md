@@ -29,6 +29,6 @@ end
 License
 -------
 
-Copyright (c) 2012 Birdbox
+Copyright (c) 2012 Birdbox, Inc.
 
 This source code released under an MIT license.
