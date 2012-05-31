@@ -30,7 +30,7 @@ module OmniAuth
       end
 
       def user
-        @user_hash ||= MultiJson.decode(@access_token.get('http://api.smugmug.com/services/api/json/1.3.0/?method=smugmug.auth.checkAccessToken').body)['Auth']['User']
+        @user_hash ||= MultiJson.decode(@access_token.get('http://api.smugmug.com/services/api/json/1.2.2/?method=smugmug.auth.checkAccessToken').body)['Auth']['User']
       end
 
     end
